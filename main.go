@@ -10,7 +10,7 @@ var cookie string
 func main() {
 	ck, _ := os.ReadFile("cookie.ini")
 	cookie = string(ck)
-	domainList := []string{"yunzhiyike", "vip", "vipdy", "mmvp", "ks", "dy", "hao123", "jd123", "tb123"}
+	domainList := []string{"cf888", "dz233", "mk22", "dw111"}
 	for _, domain := range domainList {
 		batchAddDomain(domain)
 	}
